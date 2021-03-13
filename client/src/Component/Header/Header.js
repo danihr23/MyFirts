@@ -6,8 +6,7 @@ const Header =()=>{
     return (
         <nav className={style.navigation}>
         <ul>
-          <li className='navItem'><img src="white-origami-bird.png"></img></li>
-          
+        
           
           <NavigationItem>Going to 1</NavigationItem>
           <NavigationItem>Going to 2</NavigationItem>
