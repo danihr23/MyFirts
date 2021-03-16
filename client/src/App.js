@@ -7,7 +7,7 @@ import Main from './Component/Main/Main'
 
 import {Component} from 'react';
 import * as PostService from './services/PostService';
-import {getAll} from './services/PostService'
+
  
 
 class App extends Component{

@@ -1,9 +1,7 @@
 import style from './Main.module.css';
+import Post from '../Post/Post';
 
-
-
-
-const  Main=({posts}) =>{
+function  Main({posts}) {
 
     console.log(posts);
   return (
@@ -13,10 +11,20 @@ const  Main=({posts}) =>{
    
     <h1 className={style.title}>Sooooooome heading</h1>
 
+    <div className='posts'>
+
+    
     {posts.map(x=>
-       <p>{x.content}</p> 
+       <Post 
+
+       key ={x.id}
+       content ={x.content}
+       author ={x.author}
+
+       
+       /> 
         )}
-      
+      </div>
     </main>
 
     
