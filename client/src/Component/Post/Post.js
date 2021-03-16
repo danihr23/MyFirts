@@ -1,10 +1,10 @@
- 
+ import './Post.css'
 
 
 
 const Post = ({content,author})=>{
     return(
-        <div className='post'>
+        <div className='post-container'>
         <img src="blue-origami-bird.png"/>
         <p className='post-description'>{content}</p>
 

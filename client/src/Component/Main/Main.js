@@ -11,7 +11,7 @@ function  Main({posts}) {
    
     <h1 className={style.title}>Sooooooome heading</h1>
 
-    <div className='posts'>
+<div className={style.posts}>
 
     
     {posts.map(x=>
